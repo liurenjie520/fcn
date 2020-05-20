@@ -25,12 +25,16 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 | MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_mac.zip
 | Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn.apk
 | Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_linux.zip
+| FCN定制Padavan固件 | FCN-GL-MT300NV2.trx | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/FCN-GL-MT300NV2.zip
 | Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
 
 Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan、斐讯K3梅林插件实测通过
 
 Linux arm/armbian 树莓派3、Orange Pi实测通过
+
+* FCN定制路由器默认管理地址 http://192.168.8.1 admin/admin wifi密码:1234567890  
+[FCN路由器淘宝购买地址](https://m.intl.taobao.com/detail/detail.html?spm=a21wu.11154615-cn.list.3&id=555120245987&item_id=555120245987)
 
 * FCN WIKI页面已经开放编辑[请大家一齐完善FCN文档]
 
