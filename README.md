@@ -34,7 +34,7 @@ Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan、斐讯K3
 Linux arm/armbian 树莓派3、Orange Pi实测通过
 
 * FCN定制路由器默认管理地址 http://192.168.8.1 admin/admin wifi密码:1234567890  
-[FCN路由器淘宝购买地址](https://m.intl.taobao.com/detail/detail.html?spm=a21wu.11154615-cn.list.3&id=555120245987&item_id=555120245987)
+[FCN路由器淘宝购买地址](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18055431286.31.3e773731khCbPI&id=555120245987)
 
 * FCN WIKI页面已经开放编辑[请大家一齐完善FCN文档]  
 https://github.com/boywhp/fcn/wiki
