@@ -36,8 +36,7 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 * FCN定制路由器默认管理地址 http://192.168.8.1 admin/admin wifi密码:1234567890  
 [FCN路由器淘宝购买地址](https://m.intl.taobao.com/detail/detail.html?spm=a21wu.11154615-cn.list.3&id=555120245987&item_id=555120245987)
 
-* FCN WIKI页面已经开放编辑[请大家一齐完善FCN文档]
-
+* FCN WIKI页面已经开放编辑[请大家一齐完善FCN文档]  
 https://github.com/boywhp/fcn/wiki
 
 ## FCN(Windows版)一键接入局域网操作视频
