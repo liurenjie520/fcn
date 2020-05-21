@@ -12,6 +12,10 @@ FCN[`free connect`]是一款**闭源**傻瓜式的一键接入私有网络的工
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
+* FCN接入原理示意图
+
+![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+
 * FCN使用交流QQ群: 783079998 ~~822475769(已满)~~ ~~592512533(已满)~~ 请务必填写加群理由(FCN使用交流)
 
 * FCN支持通信协议：UDP/TCP/P2P/TLS[付费用户]，支持socks5以及HTTP网络代理[付费用户]
@@ -28,7 +32,6 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 | FCN定制路由器 | FCN-GL-MT300NV2.trx | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/FCN-GL-MT300NV2.zip
 | Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
-
 Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan、斐讯K3梅林插件实测通过
 
 Linux arm/armbian 树莓派3、Orange Pi实测通过
@@ -37,33 +40,25 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 [FCN路由器淘宝购买地址](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18055431286.31.3e773731khCbPI&id=555120245987)  
 [FCN路由器介绍和操作](https://www.bilibili.com/video/BV1Ft4y1m7rs)
 
-* FCN WIKI页面已经开放编辑[请大家一齐完善FCN文档]  
-https://github.com/boywhp/fcn/wiki
+* [FCN跨互联网组网PPT](https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt)
 
-## FCN(Windows版)一键接入局域网操作视频
+* [FCN远程唤醒PC管理PPT](https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt)
+
+* [FCN WIKI页面](https://github.com/boywhp/fcn/wiki)
+
+# 2. FCN操作使用视频
+
+## windows版本
 * 首先创建FCN服务端 
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
 * 运行客户端从互联网连接到FCN服务端局域网，【注意】3.7版本以上不要输用户名
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
-* 安卓版本远程桌面开关机操作视频
-http://t.cn/EwY0oXm
 
-* Ubuntu GTK版本操作演示视频
-https://www.bilibili.com/video/av41877029
+* [安卓版本远程桌面开关机操作视频](http://t.cn/EwY0oXm)
 
-* FCN接入原理示意图
+* [Ubuntu操作演示视频](https://www.bilibili.com/video/av41877029)
 
-![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
-
-# 2. FCN实际案例
-
-使用FCN跨互联网组网
-
-https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt
-
-使用FCN远程唤醒PC，并远程管理
-
-https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt
+* [FCN路由器桥接模式演示视频](https://www.bilibili.com/video/BV1XZ4y1s7aw)
 
 # 3. FCN使用
 
