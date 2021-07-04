@@ -1,66 +1,74 @@
 # FCN
 free connect your private network from anywhere
 
+![](https://img.shields.io/github/release/boywhp/fcn.svg)
+![](https://img.shields.io/github/downloads/boywhp/fcn/total.svg)
+
 # 1. FCN简介
 
-FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn利用公共服务器以及数据加密技术实现：
+FCN[`free connect`]是一款**闭源**傻瓜式的一键接入私有网络的工具, fcn利用公共服务器以及数据加密技术实现：
 
 在免公网IP环境下，在任意联网机器上**透明接入服务端所在局域网网段**
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
-* download FCN V3.7 FULL 百度网盘 https://pan.baidu.com/s/1IpR7vd-MoheOggMXDhpnEg
-
-* download FCN V3.7 FULL https://github.com/boywhp/fcn/releases/download/FCN_V3.7/FCN_V3.7_FULL.zip
-
-* FCN使用交流QQ群: `822475769` ~~592512533(已满)~~ 请务必填写加群理由(FCN使用交流)
-
-* FCN支持操作系统平台
-
-|操作系统|文件名
-|-------|---
-| Windows操作系统 | windows/fcn_win.exe
-| Debian GTK版本 | Ubuntu/fcn.deb
-| MacOS操作系统 | macos/fcn_mac_x64
-| Linux操作系统 | linux/fcn_x64/x86
-| Linux 路由器 | linux-embedded/lede或openwrt/fcn_`mips/mipsel/arm/armhf`
-| Linux arm | linux-embedded/`fcn-arm/armbian`
-| Android | Fcn.apk
-
-Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过，openwrt/lede需自行安装`libopenssl`包
-
-Linux arm/armbian 树莓派3、Orange Pi实测通过
-
-## FCN(Windows版)一键接入局域网操作视频
-* 首先创建FCN服务端 
-![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
-* 运行客户端从互联网连接到FCN服务端局域网
-![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
-* 安卓版本远程桌面开关机操作视频
-http://t.cn/EwY0oXm
-
-* Ubuntu GTK版本操作演示视频
-https://www.bilibili.com/video/av41877029
-
 * FCN接入原理示意图
 
 ![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
-# 2. FCN实际案例
+* FCN使用交流QQ群: 783079998 ~~822475769(已满)~~ ~~592512533(已满)~~ 请务必填写加群理由(FCN使用交流)
 
-使用FCN跨互联网组网
+* FCN支持通信协议：UDP/TCP/P2P/TLS[付费用户]，支持socks5以及HTTP网络代理[付费用户]
 
-https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt
+* FCN支持操作系统平台
 
-使用FCN远程唤醒PC，并远程管理
+|操作系统|文件名|下载地址
+|-------|---|---
+| Windows操作系统 | fcn_win.exe | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_win.zip
+| Debian GTK版本 | fcn.deb | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn.deb
+| MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_mac.zip
+| Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn.apk
+| Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_linux.zip
+| FCN定制路由器 | FCN-GL-MT300NV2.trx | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/FCN-GL-MT300NV2.zip
+| Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
-https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt
+Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan、斐讯K3梅林插件实测通过
+
+Linux arm/armbian 树莓派3、Orange Pi实测通过
+
+* FCN定制路由器默认管理地址 192.168.8.1 admin/admin wifi密码:1234567890  
+[FCN路由器淘宝购买地址](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18055431286.31.3e773731khCbPI&id=555120245987)  
+[FCN路由器介绍和操作](https://www.bilibili.com/video/BV1Ft4y1m7rs)
+
+* [FCN跨互联网组网PPT](https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt)
+
+* [FCN远程唤醒PC管理PPT](https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt)
+
+* [FCN WIKI页面](https://github.com/boywhp/fcn/wiki)
+
+# 2. FCN操作使用视频
+
+## windows版本
+* 首先创建FCN服务端 
+![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
+* 运行客户端从互联网连接到FCN服务端局域网，【注意】3.7版本以上不要输用户名
+![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
+
+* [安卓版本远程桌面开关机操作视频](http://t.cn/EwY0oXm)
+
+* [Ubuntu操作演示视频](https://www.bilibili.com/video/av41877029)
+
+* [FCN路由器桥接模式演示视频](https://www.bilibili.com/video/BV1XZ4y1s7aw)
 
 # 3. FCN使用
 
 ## 3.1 运行客户服务端
 
-FCN默认加载当前目录下的fcn.conf配置文件,用户也可以手工指定, 注意目前测试帐户 `FCN_0000-FCN_9999`, **每个帐户限速100KB/s，日流量配额150M**[点对点通信成功后无限制]，请用户随机挑选测试帐户，并且设置自己的唯一服务器名，以防止帐户冲突
+FCN默认加载当前目录下的fcn.conf配置文件,用户也可以手工指定
+
+测试帐户[**仅供个人测试使用**]: **FCN_0000-FCN_9999, 限速100KB/s，日流量配额150M** [P2P成功后无速度流量限制]
+
+请用户随机挑选测试帐户，并设置唯一服务端名称，以免帐户冲突
 
 |配置键值|描述
 |-------|---
@@ -75,8 +83,6 @@ FCN默认加载当前目录下的fcn.conf配置文件,用户也可以手工指�
 | [udp] | 0/1, 设置数据包通信类型  0:TCP 1:UDP，建议不填使用UDP
 | [nat_nic] | 虚拟接入后连接的服务器网卡名, 建议不填
 | [dhcp_ip/dhcp_mask/dhcp_dns] |  虚拟接入后DHCP网段, DHCP DNS服务器地址, 建议不填
-| [uport] | 自定义udp通信端口, 默认5000，自定义[1000-2000], 建议不填
-| [tport] | 自定义tcp通信端口, 默认8000，自定义[1000-2000], 建议不填
 | [pport] | 自定义p2p通信端口, 除非服务端可做端口映射，否则不要填
 | [host] | 设置公网FCN服务器地址,默认free.xfconnect.com, 建议不填
 | [notun] | 0/1, 0:自动 1:强制应用层NAT，建议不填
@@ -132,6 +138,7 @@ fi
 
 ### 3.2.3 斐讯K2P路由器博通版-Merlin
 
+* 注意：如果你安装了梅林koolshare版本，可使用FCN梅林插件离线安装界面版本[无需下面手工操作]
 * 登录路由器打开ssh服务[梅林固件默认不开ssh服务]
 * 编辑fcn.conf配置文件模板如下:
 ```bash
@@ -144,7 +151,7 @@ fi
 * mkdir /jffs/fcn
 * 使用winscp或web控制台上传openwrt/fcn_armhf以及fcn.conf到/jffs/fcn目录
 * chmod +x /jffs/fcn/fcn_armhf
-* 添加自定义Wan连接成功脚本
+* 添加自定义Wan连接成功脚本 /jffs/scripts/wan-start
 ```bash
 #!/bin/sh
 modprobe tun
@@ -175,7 +182,7 @@ Linux客户端配置文件参数如下：
 | [psk] | 对应服务端用户连接密码参数, 必须是明文
 | [name] | 对应服务端服务器名
 | [usr] | 对应服务端用户名
-| [host] | FCN公共服务器地址，默认free.xfconnect.com，建议直接填写对应的ip地址
+| [host] | FCN公共服务器地址，默认free.xfconnect.com，建议默认
 | [tun] | 指定客户端虚拟网卡的名称，默认tun_fcn，建议多个FCN客户端时填写
 | [tun_ip] | 手工指定客户端虚拟网卡IP地址
 | [udp] | 设置数据包通信类型，0:TCP/1:UDP，默认1 UDP，建议默认
@@ -187,9 +194,9 @@ Linux客户端配置文件参数如下：
 
 # 4. FCN安全吗？
 
-FCN使用了数字证书、tls以及数据加密技术，点对点通信技术, 用户网络数据全程加密，30分钟左右自动更新会话密钥，确保用户数据不会被截获解密或者中间人欺骗。
+FCN使用了数字证书、tls以及数据加密技术，点对点通信技术, 用户网络数据全程加密，60分钟左右自动更新会话密钥，确保用户数据不会被截获解密或者中间人欺骗。
 
-FCN公网服务器不会收集用户的任何网络数据，同时支持用户网络数据强制点对点通信。后期考虑开放用户加密接口，以便用户实现自定义的端到端私有加密。
+FCN公网服务器不会收集和保存用户的任何敏感数据, 公共服务器只负责转发加密报文, 无法解密用户网络数据包, 同时支持用户网络数据强制点对点通信。
 
 ## 4.1 FCN安全机制
 
@@ -204,5 +211,4 @@ FCN公网服务器不会收集用户的任何网络数据，同时支持用户�
 请您仔细阅读以下声明，您在使用FCN工具软件以及使用FCN企业订制服务，表明您对以下内容的接受：
 
 * 严禁破解，逆向本系统程序及相关组件，违者不但将不再享受官方提供的任何服务，也将承担法律责任，并赔偿相应损失;
-* 严禁使用本软件从事计算机黑客行为以及其他任何危害计算机信息网络安全的;
 * 本软件属于正规网络接入软件，请合理，合法的使用本软件产品；切勿用于违反法律，道德及影响他人利益的活动；如果因用于非法用途，由此造成的不良后果，由用户自行负责，本软件开发者不承担任何责任及损失。
